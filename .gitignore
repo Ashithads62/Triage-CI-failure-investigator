@@ -218,3 +218,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Node.js
+node_modules/
+
+# React build output
+frontend/dist/
+frontend/build/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Package manager logs
+npm-debug.log*
